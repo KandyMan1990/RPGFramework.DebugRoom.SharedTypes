@@ -1,0 +1,19 @@
+{
+  "name": "com.rpgframework.debugroom.sharedtypes",
+  "version": "0.1.0",
+  "displayName": "RPG Framework Debug Room Shared Types",
+  "description": "Shared types for the RPG Framework's debug room: its module id and outcomes, for a game's module router. Compiled only where ENABLE_RPG_FRAMEWORK_DEBUG is defined",
+  "unity": "6000.6",
+  "keywords": [
+    "RPG Framework",
+    "Debug",
+    "Shared Types"
+  ],
+  "author": {
+    "name": "Elliott Armstrong",
+    "url": "https://github.com/KandyMan1990/RPGFramework.DebugRoom.SharedTypes"
+  },
+  "dependencies": {
+    "com.rpgframework.core.sharedtypes": "0.3.0"
+  }
+}
