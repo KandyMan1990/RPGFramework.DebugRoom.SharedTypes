@@ -13,5 +13,6 @@ reference, and Unity drops the references to it. Anything of yours that names th
   - `CLOSED`: backed out of; the title follows.
   - `FIELD`: a jump; the field and spawn point are in the `IFieldArgsStore`.
   - `BATTLE`: a battle; its arena and flags are in the `IBattleArgsStore`.
+  - `SCENARIO`: a scenario loaded to go; the module it was saved in follows, as after a load.
 
 The default module router routes all three, and the title's `DebugMenuOutcomes.DEBUG_ROOM`, in the Menu shared types.
