@@ -2,7 +2,7 @@
 
 What a game's module router needs to route the debug room, without depending on the Debug Room package itself.
 
-Requires Unity 6000.6 or newer and RPGFramework.Core.SharedTypes. **Compiled only where `ENABLE_RPG_FRAMEWORK_DEBUG` is
+Requires Unity 6000.7 or newer and RPGFramework.Core.SharedTypes. **Compiled only where `ENABLE_RPG_FRAMEWORK_DEBUG` is
 defined**: its assembly carries the define as a constraint, so in a build profile without it there is nothing to
 reference, and Unity drops the references to it. Anything of yours that names these types sits inside
 `#if ENABLE_RPG_FRAMEWORK_DEBUG`.
