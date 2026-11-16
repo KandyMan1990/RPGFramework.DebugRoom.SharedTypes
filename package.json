@@ -1,6 +1,6 @@
 {
   "name": "com.rpgframework.debugroom.sharedtypes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "RPG Framework Debug Room Shared Types",
   "description": "Shared types for the RPG Framework's debug room: its module id and outcomes, for a game's module router. Compiled only where ENABLE_RPG_FRAMEWORK_DEBUG is defined",
   "unity": "6000.7",
